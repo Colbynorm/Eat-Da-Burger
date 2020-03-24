@@ -22,10 +22,14 @@ var orm = {
             cb(result);
           });
     },
-    updateOne:function(){
-        //WHERE ${condition}
-        //? object {"devoured" =true}
-        //can put that in the models file
+    updateOne:function(table, obj, condition, cb){
+      var queryString = "UPDATE" + table;
+      connection.query(queryString,  obj, condition, function(err, resutl) {
+        if(err) {
+          throw err;
+        }
+        cb(result);
+      });
     },
 }
 
