@@ -1,0 +1,25 @@
+{
+  "name": "hw13",
+  "version": "1.0.0",
+  "description": "AS a burger Lover,\r I WANT to create an application to keep track of the burgers I have eaten,\r SO THAT i can challenge my tastebuds and try new and exciting burgers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colbynorm/HW13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Colbynorm/HW13/issues"
+  },
+  "homepage": "https://github.com/Colbynorm/HW13#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
